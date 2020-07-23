@@ -1,9 +1,10 @@
 Steps to test the code
 
-  1) Download the repository
+  1) Download the repository zip
   2) Have any apache server and php installed
-  3) In your browser run localhost and the test folder "agl_test"
-  4) index.php file will run automatically when above folder is called (http://localhost/agl_test)
-  5) Web service will be called from the model and it will receive the json data which will be parsed and read,
+  3) Extract the zip folder to php htdocs/www folder with name as agl_test (as an example)
+  4) In your browser run localhost and the test folder "agl_test"
+  5) index.php file will run automatically when above folder is called (http://localhost/agl_test)
+  6) Web service will be called from the model and it will receive the json data which will be parsed and read,
   and then filtering the logic requested will send back the data and show on the view file 
   
