@@ -15,7 +15,7 @@ $catsList = $controller->getJSONData();
 					asort($value); ?>
 					<h2> <?php echo $key;?></h2>
 					<ul>
-					<?php foeach($value as $catName){?>
+					<?php foreach($value as $catName){?>
 						<li> <?php echo $catName; ?> </li>
 					<?php }  ?>
 					</ul>
